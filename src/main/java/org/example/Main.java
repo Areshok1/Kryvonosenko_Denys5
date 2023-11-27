@@ -21,7 +21,7 @@ public class Main {
 
             while (!scanner.hasNextInt()) {
                 System.out.println("Invalid input. Please enter a valid choice (numeric).");
-                scanner.nextLine(); // очистити буфер вводу
+                scanner.nextLine();
                 System.out.print("Enter your choice: ");
             }
 
@@ -68,7 +68,7 @@ public class Main {
 
             while (!scanner.hasNextInt()) {
                 System.out.println("Invalid input. Please enter a valid account number (numeric).");
-                scanner.nextLine(); // очистити буфер вводу
+                scanner.nextLine();
                 System.out.print("Enter account number: ");
             }
 
@@ -88,7 +88,7 @@ public class Main {
 
         while (!scanner.hasNextInt()) {
             System.out.println("Invalid input. Please enter a valid account number (numeric).");
-            scanner.nextLine(); // очистити буфер вводу
+            scanner.nextLine();
             System.out.print("Enter account number: ");
         }
 
@@ -110,7 +110,7 @@ public class Main {
 
         while (!scanner.hasNextInt()) {
             System.out.println("Invalid input. Please enter a valid account number (numeric).");
-            scanner.nextLine(); // очистити буфер вводу
+            scanner.nextLine();
             System.out.print("Enter account number: ");
         }
 
@@ -132,7 +132,7 @@ public class Main {
 
         while (!scanner.hasNextInt()) {
             System.out.println("Invalid input. Please enter a valid account number (numeric).");
-            scanner.nextLine(); // очистити буфер вводу
+            scanner.nextLine();
             System.out.print("Enter sender's account number: ");
         }
 
@@ -142,7 +142,7 @@ public class Main {
 
         while (!scanner.hasNextInt()) {
             System.out.println("Invalid input. Please enter a valid account number (numeric).");
-            scanner.nextLine(); // очистити буфер вводу
+            scanner.nextLine();
             System.out.print("Enter receiver's account number: ");
         }
 
@@ -152,7 +152,7 @@ public class Main {
 
         while (!scanner.hasNextDouble()) {
             System.out.println("Invalid input. Please enter a valid amount (numeric).");
-            scanner.nextLine(); // очистити буфер вводу
+            scanner.nextLine();
             System.out.print("Enter transfer amount: ");
         }
 
